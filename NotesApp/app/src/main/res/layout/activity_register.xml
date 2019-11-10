@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activities.Register">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registro de usuario"
+            android:textSize="18sp"
+            android:layout_marginBottom="14dp"
+            android:textAlignment="center"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre de usuario"
+            android:layout_marginBottom="10dp"
+            android:textSize="16sp"/>
+
+    <EditText
+            android:id="@+id/regUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombres completos"
+            android:layout_marginBottom="10dp"
+            android:textSize="16sp"/>
+
+    <EditText
+            android:id="@+id/regUserFull"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Correo electrónico"
+            android:layout_marginBottom="10dp"
+            android:textSize="16sp"/>
+
+    <EditText
+            android:id="@+id/regUserEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contraseña"
+            android:layout_marginBottom="10dp"
+            android:textSize="16sp"/>
+
+    <EditText
+            android:id="@+id/regUserPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"/>
+
+    <Button
+            android:id="@+id/btnRegisterComplete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:text="Registrarse"/>
+
+</LinearLayout>
